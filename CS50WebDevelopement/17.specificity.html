@@ -3,18 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Class Selector</title>
+    <title>Specificity</title>
     <style>
-        .headings{
+        /* Here specificity rule is applied */
+        /* Specificity order is: Inline > Id > Class > type */
+        h1{
+            color: blue;
+        }
+        #headings{
             color: brown;
         }
+
     </style>
 </head>
 <body>
     <!-- with id we can style that particular part of my HTML page -->
-    <h1 class="headings">heading 1</h1>
-    <h1 class="headings">heading 2</h1>
-    <h1>heading 3</h1>
-    <h1>heading 4</h1>
+    <h1 id="heading">heading 1</h1>
 </body>
 </html>
