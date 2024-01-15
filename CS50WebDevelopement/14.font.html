@@ -1,24 +1,33 @@
 <!-- there are a number of different font-related CSS properties -->
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Font Size</title>
     <style>
-        div{
+        div {
             border: 3px solid black;
             font-family: Arial, Helvetica, sans-serif;
             font-size: 28px;
             font-weight: bold;
         }
-        table, td, th{
+
+        /* I can add a CSS property to the table called border collapse and just say,
+        I would like to collapse all of the borders in the table. */
+        table {
             border: 1px solid black;
+            border-collapse: collapse;
         }
-       
-        
+
+        td, th {
+            border: 1px solid black;
+            padding:5px; /*add some spacing */
+        }
     </style>
 </head>
+
 <body>
     <div>
         Apply on me all font size properties.
@@ -35,22 +44,23 @@
             </thead>
             <tbody>
                 <tr>
-                   <td> lipstick</td>
-                   <td>300</td>
-                   <td>30%</td>
+                    <td> lipstick</td>
+                    <td>300</td>
+                    <td>30%</td>
                 </tr>
                 <tr>
                     <td>nail-paint</td>
                     <td>100</td>
                     <td>20%</td>
-                 </tr>
-                 <tr>
+                </tr>
+                <tr>
                     <td>foundation</td>
                     <td>3000</td>
                     <td>50%</td>
-                 </tr>
+                </tr>
             </tbody>
         </table>
     </div>
 </body>
+
 </html>
