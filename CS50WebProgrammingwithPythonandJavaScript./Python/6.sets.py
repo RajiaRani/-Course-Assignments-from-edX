@@ -18,3 +18,6 @@ print(s)
 #Remove the elements from the sets
 s.remove(4)
 print(s)
+
+#Using len() function to calculate the length of the set
+print(f"The set has {len(s)} elements inside it.")
