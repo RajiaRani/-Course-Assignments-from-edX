@@ -19,8 +19,7 @@ coordinateX = 10.0
 coordinateY = 20.0
 coordinate = (10.0, 20.0)
 
-# list, is a sequence of mutable values,
-#which we took a look at. And mutable, just meaning we can change the elements in the list.
+
 # tuple, on the other hand, is a sequence of immutable values
 # Set , collections of unique values.(with no sequence and every value appear once)
 # dictionary. In Python, shortened to just a dict, whichis the collection of what we're going to call key-value pairs.
